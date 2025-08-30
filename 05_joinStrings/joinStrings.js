@@ -9,9 +9,13 @@
 
 // Add your code right below, good luck!
 
+let firstName = "Carlos", lastName = "Stevenson", thisYear = 1965, birthYear = 1947, greeting;
 
+let fullName = firstName + " " + lastName, age = thisYear - birthYear;
 
+greeting = "Hello! My name is " + fullName + " and I am " + age + " years old." 
 
+console.log(greeting);
 
 // Do not change this
 module.exports = {
